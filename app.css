@@ -1,0 +1,120 @@
+.mission-and-value {
+    height: 1024px;
+    display: flex;
+}
+
+.left {
+    width: 51.1%;
+}
+
+.right {
+    width: 48.9%;
+    background: url('images/_The-Best-Samsung-Galaxy-S20-Ultra-Cases.jpg');
+    background-repeat: no-repeat;
+}
+
+.provide {
+    position: relative;
+    width: 90%;
+    left: 27%;
+    top: 150px;
+    background: #F8F6F9;
+    box-shadow: 1px 6px 28px 2px rgb(0 0 0 / 25%);
+    border-radius: 0px 24px 24px 0px;
+    z-index: 2;
+    padding: auto;
+}
+
+.provide p {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 37px;
+    color: black;
+    margin: 0;
+    padding: 9.6%;
+}
+
+.Intergrity ul {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: black;
+    margin: 0;
+    padding: 6.6% 9.6%;
+}
+
+.Intergrity {
+    position: relative;
+    width: 90%;
+    height: 230px;
+    left: 27%;
+    top: 250px;
+    background: #F8F6F9;
+    box-shadow: 1px 6px 28px 2px rgba( 0, 0, 0, 0.25);
+    border-radius: 0px 24px 24px 0px;
+    z-index: 2;
+}
+
+.value {
+    position: relative;
+    float: right;
+    right: 20%;
+    top: -750px;
+    line-height: 78px;
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    z-index: 2;
+} 
+
+.purple {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    background: rgba(156, 39, 176, 0.8);
+}
+
+@media (max-width: 991px) {
+    /* .mission-and-value {
+        margin-top: 40px;
+    } */
+
+    .value {
+        right: 5%;
+        line-height: 74px;
+        font-size: 60px;
+    }
+
+    .provide p,
+    .Intergrity ul {
+        padding: 9.6%;
+    }
+}
+
+@media (max-width: 768px) {
+    .value {
+        right: 1%;
+        line-height: 64px;
+        font-size: 50px;
+    }
+
+    .provide p,
+    .Intergrity ul {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .Intergrity ul {
+        font-size: 22px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 576px) {
+    .value {
+        right: 0;
+        line-height: 60px;
+        font-size: 46px;
+    }
+}
