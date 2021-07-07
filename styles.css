@@ -46,7 +46,7 @@ button.navbar-toggler {
 
 ul.navbar-nav li.nav-item a.nav-link,
 a.dropdown-item,
-button.btn {
+a.btn {
     font-size: 14px;
     font-weight: 700;
     line-height: 17.07px;
@@ -81,28 +81,28 @@ ul.navbar-nav li.nav-item a.nav-link img {
     padding: 0px 35px;
 }
 
-button.btn-primary,
-button.btn-secondary:hover {
+a.btn-primary,
+a.btn-secondary:hover {
     background-color: #FFFFFF;
     color: #9C27B0;
     border-color: #9C27B0;
     border-radius: 5px;
 }
 
-button.btn-secondary,
-button.btn-primary:hover {
+a.btn-secondary,
+a.btn-primary:hover {
     background-color: #9c27b0;
     color: #FFFFFF;
     border-color: #9C27B0;
     border-radius: 5px;
 }
 
-button.login-button {
+a.login-button {
     padding: 12px 23px 11px;
     margin-right: 6px
 }
 
-button.signup-button {
+a.signup-button {
     padding: 12px 18px 11px 19px;
     margin-left: 6px;
 }
@@ -191,12 +191,12 @@ div.row div.store-logo img.apple-store {
         padding: 0px 25px;
     }
 
-    button.login-button {
+    a.login-button {
         padding: 12px 17px 11px;
         margin-right: 4px
     }
 
-    button.signup-button {
+    a.signup-button {
         padding: 12px 12px 11px 13px;
         margin-left: 4px;
     }
@@ -249,7 +249,7 @@ div.row div.store-logo img.apple-store {
     }
 
     ul.navbar-nav li.nav-item a.nav-link,
-    button.btn {
+    a.btn {
         font-size: 19px;
         font-weight: 700;
         line-height: 17px;
@@ -278,12 +278,12 @@ div.row div.store-logo img.apple-store {
         justify-content: center;
     }
 
-    button.login-button {
+    a.login-button {
         padding: 12.24px 43.12px 10.76px 49.88px;
         margin-right: 16px
     }
 
-    button.signup-button {
+    a.signup-button {
         padding: 12.24px 37.95px 10.76px 45.05px;
         margin-left: 16px;
     }
