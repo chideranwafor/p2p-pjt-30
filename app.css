@@ -114,7 +114,13 @@
 @media (max-width: 576px) {
     .value {
         right: 0;
-        line-height: 60px;
-        font-size: 46px;
+        line-height: 40px;
+        font-size: 28px;
+    }
+
+    .provide p,
+    .Intergrity ul {
+        font-size: 15px;
+        line-height: 22px;
     }
 }

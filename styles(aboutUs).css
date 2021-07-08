@@ -97,12 +97,12 @@
 @media (max-width: 576px) {
     .aboutUs h3 {
         right: 0;
-        line-height: 60px;
-        font-size: 46px;
+        line-height: 40px;
+        font-size: 28px;
     }
 
     .aboutUs div.card-box p {
-        font-size: 19px;
-        line-height: 26px;
+        font-size: 15px;
+        line-height: 22px;
     }
 }

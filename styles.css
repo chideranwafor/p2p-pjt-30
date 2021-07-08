@@ -339,6 +339,10 @@ div.row div.store-logo img.apple-store {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+    .container-fluid {
+        padding: 0 1.75rem 0 2rem
+    }
+
     .header div.description {
         position: absolute;
         width: 55%;
@@ -378,18 +382,26 @@ div.row div.store-logo img.apple-store {
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
+    .container-fluid {
+        padding: 0 2.75rem 0 4rem
+    }
+    
     .header div.description {
         top: 20%;
         left: 10%;
-        font-size: 23px;
-        line-height: 33px;
+        font-size: 18px;
+        line-height: 28px;
     }
 
     button.get-started-button {
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 18px;
         padding: 13px 30px 14px;
         margin-top: 0;
+    }
+
+    div.header-bottom {
+        margin: 0 5%;
     }
 
     .header-bottom div.row {
@@ -397,7 +409,7 @@ div.row div.store-logo img.apple-store {
     }
 
     div button.download-button {
-        width: 320px;
+        width: 300px;
         margin: 60px 0;
         font-weight: 700;
         font-size: 21px;
