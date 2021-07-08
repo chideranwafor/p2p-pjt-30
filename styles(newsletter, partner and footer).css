@@ -168,6 +168,14 @@ footer a {
 }
 
 @media (max-width: 991px) {
+    .sponsors {
+        text-align: center;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 78px;
+        color: #9C27B0;
+    }
+
     .reSEND {
         text-align: left;
     }
@@ -186,6 +194,15 @@ footer a {
 
     .contact {
         text-align: left;
+    }  
+}
+
+@media (max-width: 576px) {
+    .sponsors {
+        text-align: center;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 70px;
+        color: #9C27B0;
     }
-    
 }
