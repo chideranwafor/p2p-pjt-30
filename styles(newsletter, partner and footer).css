@@ -163,6 +163,10 @@ p.reSEND-p a i.fa {
     margin-top: 139px;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 @media (max-width: 991px) {
     .reSEND {
         text-align: left;
