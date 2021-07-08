@@ -264,8 +264,8 @@ select.form-select {
     padding: 17px 12px;
 }
 
-form button.btn,
-form button.btn:hover {
+form a.btn,
+form a.btn:hover {
     background: #9C27B0;
     border-color: #9C27B0;
     border-radius: 15px;
@@ -389,11 +389,16 @@ form button.btn:hover {
     padding: 40px 0 0 52.12px;
 }
 
-.header-image2 img {
+.header2 a {
+    text-decoration: none;
+    display: flex;
+}
+
+a div.header-image2 img {
     vertical-align: bottom;
 }
 
-.header-text2 h5 {
+a div.header-text2 h5 {
     margin-left: 24.12px;
     font-weight: 600;
     font-size: 24px;
