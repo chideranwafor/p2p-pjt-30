@@ -379,9 +379,10 @@ div.row div.store-logo img.apple-store {
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
     .header div.description {
-        top: 30%;
-        font-size: 25px;
-        line-height: 35px;
+        top: 20%;
+        left: 10%;
+        font-size: 23px;
+        line-height: 33px;
     }
 
     button.get-started-button {

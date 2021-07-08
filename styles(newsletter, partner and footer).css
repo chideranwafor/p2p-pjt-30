@@ -1,0 +1,187 @@
+.partners {
+    padding: 88px 7.85% 184px 8.54%;
+}
+
+.partners div.row {
+    width: 100%;
+}
+
+.sponsors {
+    text-align: center;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    color: #9C27B0;
+}
+
+.i4g-logo {
+    margin-top: 80px;
+}
+
+.fb-logo {
+    margin-top: 70px;
+}
+
+.zuri-logo {
+    margin-top: 37px;
+    margin-left: 20px;
+}
+
+.techpoint-logo {
+    margin-top: 37px;
+    margin-left: -38px;
+}
+
+/* footer */
+
+.news-letter {
+    background: #213056;
+    padding: 136px 12.7% 174px 12.7%;
+}
+
+.news-letter-h {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.emailnews {
+    display: flex;
+}
+
+.emailnews input {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding: 26px 0 26px 39px;
+}
+
+.mail-box {
+    text-align: center;
+}
+
+button.mailbtn {
+    padding: 17px 61px;
+    background: #9C27B0;
+    box-shadow: 0px 0px 2px rgba(15, 15, 15, 0.25);
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+footer {
+    background: #3F3D56;
+    padding: 227px 12.7% 173px 12.7%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.reSEND {
+    text-align: right;
+}
+
+.company h6,
+.contact h6 {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.company-p1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.company-p2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.contact-p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.reSEND h6 {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.reSEND-p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+p.reSEND-p a {
+    font-size: 1em;
+    border-radius: 50%;
+    background: #FFFFFF;
+    line-height: 1.7em;
+    width: 1.35em;
+    height: 2em;
+    text-align: center;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+p.reSEND-p a i.fa {
+    /* color: rgba(255, 255, 255, 0.6); */
+    color: #3F3D56;
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 139px;
+}
+
+@media (max-width: 991px) {
+    .reSEND {
+        text-align: left;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .emailnews {
+        display: block;
+    }
+
+    button.mailbtn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contact {
+        text-align: left;
+    }
+    
+}
