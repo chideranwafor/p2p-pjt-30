@@ -122,7 +122,11 @@ a.signup-button {
     color: #9C27B0;
 }
 
-button.get-started-button {
+.description a {
+    text-decoration: none;
+}
+
+a.get-started-button {
     background: #9C27B0;
     border: none;
     border-radius: 5px;
@@ -211,7 +215,7 @@ div.row div.store-logo img.apple-store {
         line-height: 74px;
     }
 
-    button.get-started-button {
+    a.get-started-button {
         font-weight: 600;
         font-size: 27px;
         line-height: 40px;
@@ -297,7 +301,7 @@ div.row div.store-logo img.apple-store {
         line-height: 60px;
     }
 
-    button.get-started-button {
+    a.get-started-button {
         background: #9C27B0;
         border: none;
         border-radius: 5px;
@@ -352,7 +356,7 @@ div.row div.store-logo img.apple-store {
         line-height: 45px;
     }
 
-    button.get-started-button {
+    a.get-started-button {
         font-size: 20px;
         line-height: 20px;
         padding: 13px 30px 14px;
@@ -393,7 +397,7 @@ div.row div.store-logo img.apple-store {
         line-height: 28px;
     }
 
-    button.get-started-button {
+    a.get-started-button {
         font-size: 13px;
         line-height: 18px;
         padding: 13px 30px 14px;
